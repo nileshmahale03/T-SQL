@@ -14,7 +14,7 @@ CREATE TABLE Schema.Table_Name
 
 ALTER TABLE Schema.Table_Name ADD Column5 datatype
 
---ALTER TABLE - MODIFY COLUMN
+--ALTER TABLE - ALTER COLUMN
 
 ALTER TABLE Schema.Table_Name ALTER COLUMN Column5 new_datatype
 
