@@ -1,5 +1,5 @@
 
---CREATE TABLE
+--CREATE TABLE ON PRIMARY
 
 CREATE TABLE Schema.Table_Name
 (
@@ -8,7 +8,18 @@ CREATE TABLE Schema.Table_Name
   , Column3 datatype NOT NULL
   , Column4 datatype NOT NULL
   CONSTRAINT PK_SChema_Table_Name PRIMARY KEY(Column1)
-)
+) ON [PRIMARY]
+
+--CREATE TABLE ON PARTITION SCHEME
+
+CREATE TABLE Schema.Table_Name
+(
+	Column1 datatype NOT NULL IDENTITY(1,1)
+  , Column2 datatype NOT NULL
+  , Column3 datatype NOT NULL
+  , Column4 datatype NOT NULL
+  CONSTRAINT PK_SChema_Table_Name PRIMARY KEY(Column1)
+) ON partitionScheme(Column4)
 
 --ALTER TABLE - ADD COLUMN
 

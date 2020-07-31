@@ -189,7 +189,6 @@ VALUES ('Nilesh' , 'Mahale'    , '1986-02-03', 'Current' )
 	  ,('Sonal'  , 'Chaudhari' , '1989-04-23', 'History' )
 	  ,('Mayur' , 'Nirmale'    , '1991-02-19', 'Current' )
 ------------------------------------------------------------------------------------------------------------------------------------------
-
 USE TSQLV4
 GO
 
@@ -242,3 +241,30 @@ LEFT JOIN sys.partition_range_values prv on prv.function_id=pf.function_id
 WHERE so.is_ms_shipped != 1 and so.type = 'U'
 ORDER BY SchemaTable, IndexID, PartitionFunction, PartitionNumber
 --WHERE so.object_id = 1509580416
+------------------------------------------------------------------------------------------------------------------------------------------
+
+--Modify existing partitions
+
+ALTER DATABASE TSQLV4 
+ADD FILEGROUP FG_TSQLV4_Dimension_Puged
+
+ALTER DATABASE TSQLV4
+ADD FILE
+(
+   NAME = 'FG_TSQLV4_Dimension_Purged.ndf'
+ , FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\FG_TSQLV4_Dimension_Puged.ndf'
+)
+TO FILEGROUP FG_TSQLV4_Dimension_Puged
+
+ALTER PARTITION SCHEME psDimensionRecordFlag
+NEXT USED FG_TSQLV4_Dimension_Puged
+
+ALTER PARTITION FUNCTION psDimensionRecordFlag ()
+SPLIT RANGE ('Puged')
+-- Split the partition between 50 and 500
+-- create 2 partitions
+
+INSERT INTO Test.EmployeesDim (FirstName, LastName, BirthDate, RecordFlag)
+VALUES ('Madhuri', 'C.', '1989-09-23', 'Puged')
+
+------------------------------------------------------------------------------------------------------------------------------------------
