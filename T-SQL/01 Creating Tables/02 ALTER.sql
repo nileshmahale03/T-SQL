@@ -1,10 +1,11 @@
 
+---------------------------------------------------------------------
 -- ALTER 
 
 --1. ADD new column
 --2. Modify Data type of an existing column
 --3. DROP an existing column
-
+---------------------------------------------------------------------
 USE TSQLV4
 GO
 

@@ -1,5 +1,6 @@
-
+---------------------------------------------------------------------
 -- CREATE TABLE
+---------------------------------------------------------------------
 
 USE TSQLV4
 GO
@@ -118,13 +119,12 @@ VALUES ('Nilesh' , 'Mahale'    , '1986-02-03' )
       ,('Madhuri', 'Nirmale'   , '1989-04-23' )
 	  ,('Rakesh' , 'Mahale'    , '1984-04-17' )
 	  ,('Sonal'  , 'Chaudhari' , '1989-04-23' )
-
-
 --Note: EmpID Column is PrimaryKey so you can not have 2 or multiple rows with same EmpID
 --    : EmpID Column is Identity Column so if you don't provide a value for it, it will automatically increase 
-------------------------------------------------------------------------------------------------------------------------------------------
-USE TSQLV4
-GO
+
+---------------------------------------------------------------------
+-- Create Partitioned Table
+---------------------------------------------------------------------
 
 ALTER DATABASE TSQLV4 
 ADD FILEGROUP FG_TSQLV4_Dimension_Current
@@ -188,10 +188,10 @@ VALUES ('Nilesh' , 'Mahale'    , '1986-02-03', 'Current' )
 	  ,('Rakesh' , 'Mahale'    , '1984-04-17', 'Current' )
 	  ,('Sonal'  , 'Chaudhari' , '1989-04-23', 'History' )
 	  ,('Mayur' , 'Nirmale'    , '1991-02-19', 'Current' )
-------------------------------------------------------------------------------------------------------------------------------------------
-USE TSQLV4
-GO
 
+---------------------------------------------------------------------
+-- Query to check Partitioned Table
+---------------------------------------------------------------------
 SELECT * 
 FROM SYS.dm_db_partition_stats
 WHERE OBJECT_ID = OBJECT_ID('Test.Employees')
@@ -241,10 +241,10 @@ LEFT JOIN sys.partition_range_values prv on prv.function_id=pf.function_id
 WHERE so.is_ms_shipped != 1 and so.type = 'U'
 ORDER BY SchemaTable, IndexID, PartitionFunction, PartitionNumber
 --WHERE so.object_id = 1509580416
-------------------------------------------------------------------------------------------------------------------------------------------
 
---Modify existing partitions
-
+---------------------------------------------------------------------
+-- Modify existing partitions
+---------------------------------------------------------------------
 ALTER DATABASE TSQLV4 
 ADD FILEGROUP FG_TSQLV4_Dimension_Puged
 
@@ -266,5 +266,3 @@ SPLIT RANGE ('Puged')
 
 INSERT INTO Test.EmployeesDim (FirstName, LastName, BirthDate, RecordFlag)
 VALUES ('Madhuri', 'C.', '1989-09-23', 'Puged')
-
-------------------------------------------------------------------------------------------------------------------------------------------
