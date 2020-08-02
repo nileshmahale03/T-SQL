@@ -17,13 +17,13 @@ SELECT * FROM dbo.Orders
 
 SELECT * 
 FROM dbo.Customers C
-RIGHT JOIN dbo.Orders O ON C.CustID = O.CustID
+RIGHT JOIN dbo.Orders O ON O.CustID = C.CustID
 
 SELECT * 
 FROM dbo.Customers C
-RIGHT JOIN dbo.Orders O ON C.CustID = O.CustID
+RIGHT JOIN dbo.Orders O ON O.CustID = C.CustID
 WHERE C.City = 'Madrid'
 
 SELECT * 
 FROM dbo.Customers C
-RIGHT JOIN dbo.Orders O ON C.CustID = O.CustID AND C.City = 'Madrid'
+RIGHT JOIN dbo.Orders O ON O.CustID = C.CustID AND C.City = 'Madrid'

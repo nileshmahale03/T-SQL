@@ -15,13 +15,13 @@ SELECT * FROM dbo.Orders
 
 SELECT * 
 FROM dbo.Customers C
-FULL JOIN dbo.Orders O ON C.CustID = O.CustID
+FULL JOIN dbo.Orders O ON O.CustID = C.CustID
 
 SELECT * 
 FROM dbo.Customers C
-FULL JOIN dbo.Orders O ON C.CustID = O.CustID
+FULL JOIN dbo.Orders O ON O.CustID = C.CustID
 WHERE C.City = 'Madrid'
 
 SELECT * 
 FROM dbo.Customers C
-FULL JOIN dbo.Orders O ON C.CustID = O.CustID AND C.City = 'Madrid'
+FULL JOIN dbo.Orders O ON O.CustID = C.CustID AND C.City = 'Madrid'
