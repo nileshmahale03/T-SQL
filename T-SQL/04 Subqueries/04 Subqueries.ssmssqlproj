@@ -49,11 +49,11 @@
           <AssociatedConnUserName />
           <FullPath>04 Correlated Multi-value.sql</FullPath>
         </FileNode>
-        <FileNode Name="EXISTS Predicate.sql">
+        <FileNode Name="05 EXISTS Predicate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>EXISTS Predicate.sql</FullPath>
+          <FullPath>05 EXISTS Predicate.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
