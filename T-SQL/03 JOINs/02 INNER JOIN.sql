@@ -11,6 +11,17 @@
 ---------------------------------------------------------------------
 USE TSQLV4
 
+SELECT * FROM Sales.Customers             --91
+SELECT DISTINCT custid FROM Sales.Orders  --89
+
+--Following quey retuns customers and their orders, since its a inner join, the query does not returns customers who did not place any orders
+SELECT DISTINCT C.custid, O.custid
+FROM Sales.Customers C
+INNER JOIN Sales.Orders O ON O.custid = C.custid
+--89
+
+---------------------------------------------------------------------
+
 SELECT * FROM dbo.Customers
 SELECT * FROM dbo.Orders
 

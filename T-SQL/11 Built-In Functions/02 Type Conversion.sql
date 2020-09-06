@@ -1,0 +1,23 @@
+---------------------------------------------------------------------
+-- Functions
+---------------------------------------------------------------------
+USE TSQLV4
+
+--1. CAST 
+--CAST(value AS datatype)
+SELECT CAST('20160212' AS DATE);
+SELECT CAST(SYSDATETIME() AS DATE);
+SELECT CAST(SYSDATETIME() AS TIME);
+
+--2. CONVERT 
+--CONVERT(datatype, value [, style_number])
+SELECT CONVERT(CHAR(8), CURRENT_TIMESTAMP, 112);
+SELECT CONVERT(DATETIME, CONVERT(CHAR(8), CURRENT_TIMESTAMP, 112), 112);
+
+SELECT CONVERT(CHAR(12), CURRENT_TIMESTAMP, 114);
+SELECT CONVERT(DATETIME, CONVERT(CHAR(12), CURRENT_TIMESTAMP, 114), 114);
+
+--3. PARSE
+--PARSE(value AS datatype [USING culture])
+SELECT PARSE('02/12/2016' AS DATETIME USING 'en-US');
+SELECT PARSE('02/12/2016' AS DATETIME USING 'en-GB');

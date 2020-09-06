@@ -25,35 +25,35 @@
           <AssociatedConnUserName />
           <FullPath>00 SELECT Statement.sql</FullPath>
         </FileNode>
-        <FileNode Name="01 SELECT.sql">
+        <FileNode Name="01 FROM.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01 SELECT.sql</FullPath>
+          <FullPath>01 FROM.sql</FullPath>
         </FileNode>
-        <FileNode Name="02 FROM.sql">
+        <FileNode Name="02 WHERE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02 FROM.sql</FullPath>
+          <FullPath>02 WHERE.sql</FullPath>
         </FileNode>
-        <FileNode Name="03 WHERE.sql">
+        <FileNode Name="03 GROUP BY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03 WHERE.sql</FullPath>
+          <FullPath>03 GROUP BY.sql</FullPath>
         </FileNode>
-        <FileNode Name="04 GROUP BY.sql">
+        <FileNode Name="04 HAVING.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04 GROUP BY.sql</FullPath>
+          <FullPath>04 HAVING.sql</FullPath>
         </FileNode>
-        <FileNode Name="05 HAVING.sql">
+        <FileNode Name="05 SELECT.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05 HAVING.sql</FullPath>
+          <FullPath>05 SELECT.sql</FullPath>
         </FileNode>
         <FileNode Name="06 ORDER BY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
@@ -61,11 +61,41 @@
           <AssociatedConnUserName />
           <FullPath>06 ORDER BY.sql</FullPath>
         </FileNode>
-        <FileNode Name="07 OFFSET-FETCH.sql">
+        <FileNode Name="07 TOP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07 OFFSET-FETCH.sql</FullPath>
+          <FullPath>07 TOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 OFFSET-FETCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 OFFSET-FETCH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 Predicates and Operators.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 Predicates and Operators.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 CASE Expression.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 CASE Expression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 Querying Metadata.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 Querying Metadata.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 Exercise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 Exercise.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

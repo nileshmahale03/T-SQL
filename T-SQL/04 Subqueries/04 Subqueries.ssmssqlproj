@@ -55,6 +55,24 @@
           <AssociatedConnUserName />
           <FullPath>05 EXISTS Predicate.sql</FullPath>
         </FileNode>
+        <FileNode Name="06 Returning previous or next values.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 Returning previous or next values.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 Returning running aggregates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 Returning running aggregates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 Exercise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 Exercise.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

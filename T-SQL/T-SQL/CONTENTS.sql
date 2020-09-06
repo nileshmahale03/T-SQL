@@ -1,5 +1,44 @@
+
 -- ==========================================================================================
 /*
+0.SQL
+	a.DDL
+		i.CREATE
+		ii.ALTER
+		iii.DROP
+	b.DML
+		i.SELECT
+		ii.INSERT
+		iii.UPDATE
+		iv.DELETE
+		v.TRUNCATE
+		vi.MERGE
+	c.DCL
+		i.GRANT
+		ii.REVOKE
+    d.Relational Model
+		i.Set Theory
+		ii.Predicate Logic
+		iii.Missing values
+		iv.Constraint
+			a.entity 
+			b.referential 
+		v.Normalization
+			a.1NF
+			b.2NF
+			c.3NF
+		vi.Types of database systems
+			a.OLTP
+			b.DSA
+			C.DWs
+		vii.Database
+			a.System Database
+			b.User Database
+				i. Primary Filegroup .mdf
+				ii. User Filegroups .ndf
+				iii. Memory Optimized Filegroup 
+				iv. Log File .ldf
+		viii.Schemas and Objects
 
 1.Creating Tables and Defining Data Integrity
 	a.CREATE/ALTER/DROP/RENAME
@@ -17,6 +56,10 @@
 	f.ORDER BY
 	g.TOP
 	h.OFFSET-FETCH
+
+	Predicates and Operators
+	LIKE Predicate
+	CASE Expressions
 
 3.JOIN
 	a.CROSS JOIN

@@ -11,3 +11,5 @@ COUNT(DISTINCT expression) evaluates expression for each row in a group, and ret
 For return values exceeding 2^31-1, COUNT returns an error. For these cases, use COUNT_BIG instead.
 
 COUNT is a deterministic function when used without the OVER and ORDER BY clauses. It is nondeterministic when used with the OVER and ORDER BY clauses
+
+
