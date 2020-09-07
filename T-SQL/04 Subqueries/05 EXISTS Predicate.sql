@@ -7,6 +7,10 @@
 
 -- IN uses, 3 valued predicate logic 
 -- EXISTS uses, 2 valued predicate logic
+
+-- Even though in most cases the use of star (*) is considered a bad practice, with EXISTS it isn’t.
+
+-- When you use the NOT IN predicate against a subquery that returns at least one NULL, the query always returns an empty set.
 ---------------------------------------------------------------------
 USE TSQLV4
 
@@ -35,7 +39,7 @@ FROM Sales.Orders O
 WHERE EXISTS (
 	SELECT *
 	FROM HR.Employees E
-	WHERE E.empid = o.empid AND lastname LIKE 'D%'
+	WHERE E.empid = O.empid AND E.lastname LIKE 'D%'
 )
 
 ---------------------------------------------------------------------

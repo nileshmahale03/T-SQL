@@ -8,6 +8,7 @@
 -- Self-conatined Multi-value subquery (IN)
 -- Self-conatined Multi-value subquery returns multiple value and it can appear on WHERE 
 -- Scalar value uses =, MultiValue uses IN
+-- As with any other predicate, you can negate the IN predicate with the NOT operator.
 -- It is recommended to not to use NOT IN, instead use NOT EXISTS
 
 -- IN JOIN, columns from 2nd tables are available to you in select list wheras in subquery they're not
@@ -90,7 +91,7 @@ SELECT DISTINCT custid FROM Sales.Orders --89
 SELECT *
 FROM Sales.Customers 
 WHERE custid NOT IN (
-	SELECT custid 
+	SELECT custid         --No need to mention DISTINCT, database engine is smart enough to do it
 	FROM Sales.Orders 
 )
 
@@ -109,5 +110,5 @@ SELECT orderid
      , custid
 	 , empid
 	 , orderdate
-	 , (SELECT custid FROM Sales.Customers WHERE country = 'USA') 'MAXOrderID'
+	 , (SELECT custid FROM Sales.Customers WHERE country = 'USA') 'USACustID'
 FROM Sales.Orders
