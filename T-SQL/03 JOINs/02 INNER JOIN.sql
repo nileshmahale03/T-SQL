@@ -2,8 +2,10 @@
 ---------------------------------------------------------------------
 -- INNER JOIN
 
+-- An inner join applies two logical query processing phases
+
 -- 1. Apply Cartesian Product - m*n ROWS
--- 2. Apply ON Predicate      - Only rows where ON Predicate is TRUE are returned
+-- 2. Apply ON Predicate      - Only rows where ON Predicate is TRUE are returned; it does not return rows for which the predicate evaluates to FALSE or UNKNOWN
 
 -- Note: 1. ON Predicate serves as a matching purpose
 --       2. WHERE serves as filtering purpose
@@ -37,3 +39,4 @@ WHERE C.City = 'Madrid'
 SELECT * 
 FROM dbo.Customers C
 INNER JOIN dbo.Orders O ON O.CustID = C.CustID AND C.City = 'Madrid'
+

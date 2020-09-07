@@ -2,9 +2,9 @@
 ---------------------------------------------------------------------
 -- CROSS JOIN
 
--- Apply Cartesian Product
+-- It implements only 1 logical quey processing phase - Apply Cartesian Product
 -- Each row from one input is matched with all rows from the other
--- So if you have m rows in one table and n rows in othe, you get m x n rows in the result.
+-- So if you have m rows in one table and n rows in other, you get m x n rows in the result.
 
 -- Note: ON Predicate is NOT required
 ---------------------------------------------------------------------
@@ -53,6 +53,8 @@ VALUES (0)
 
 SELECT * FROM dbo.Digits
 
-SELECT D2.digit*10 + D1.digit + 1 'number'
+SELECT D1.digit
+     , D2.digit
+	 , D2.digit * 10 + D1.digit + 1 'Number'
 FROM dbo.Digits D1
 CROSS JOIN dbo.Digits D2

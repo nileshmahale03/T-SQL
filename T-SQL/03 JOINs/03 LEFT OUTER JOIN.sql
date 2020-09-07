@@ -9,6 +9,8 @@
 -- Note: 1. ON Predicate serves as a matching purpose, non final
 --       2. WHERE Predicate serves as filtering purpose, final
 --       2. For OUTER JOIN there is logical difference between ON and WHERE clauses
+
+-- You can use outer joins to identify and include missing values when querying data.
 ---------------------------------------------------------------------
 USE TSQLV4
 
@@ -16,10 +18,10 @@ SELECT * FROM Sales.Customers             --91
 SELECT DISTINCT custid FROM Sales.Orders  --89
 
 --Following quey retuns customers and their orders, since its a left join, the query also returns customers who did not place any orders
-SELECT DISTINCT C.custid, O.custid
+SELECT C.custid, O.custid
 FROM Sales.Customers C
 LEFT JOIN Sales.Orders O ON O.custid = C.custid
---89
+--91
 
 --Following quey retuns customers who did not place any orders
 SELECT DISTINCT C.custid, O.custid
@@ -27,6 +29,12 @@ FROM Sales.Customers C
 LEFT JOIN Sales.Orders O ON O.custid = C.custid
 WHERE O.custid IS NULL
 
+SELECT C.custid
+     , COUNT(*)
+	 , COUNT(O.orderid)
+FROM Sales.Customers C
+LEFT JOIN Sales.Orders O ON O.custid = C.custid
+GROUP BY C.custid
 ---------------------------------------------------------------------
 --Query: you need to query all orders from the Orders table in the TSQLV4 database. You need to ensure that you get at least one row in the output for each date in the range January 1, 2014 through
 --       December 31, 2016. 
