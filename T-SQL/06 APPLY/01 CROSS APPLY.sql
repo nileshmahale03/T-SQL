@@ -7,29 +7,42 @@
 ---------------------------------------------------------------------
 USE TSQLV4
 
-SELECT * FROM dbo.Customers
-SELECT * FROM dbo.Orders
+SELECT * FROM Sales.Customers --92
+SELECT * FROM Sales.Orders    --830
 
 --In this case CROSS APPLY and CROSS JOIN are similar
 SELECT * 
-FROM dbo.Customers
-CROSS APPLY dbo.Orders
+FROM Sales.Customers
+CROSS APPLY Sales.Orders
 
 --In this case CROSS APPLY and INNER JOIN are similar
 SELECT * 
-FROM dbo.Customers C
+FROM Sales.Customers C
 CROSS APPLY (
-	SELECT O.OrderID 
-	FROM Orders O
-	where O.CustID = C.CustID  --As soon as you start refering elements from other side it can not be JOIN, it has to be APPLY
+	SELECT O.orderid 
+	FROM Sales.Orders O
+	where O.custid = C.custid  --As soon as you start refering elements from other side it can not be JOIN, it has to be APPLY
 ) A
 
---Problem 1: Two most recent orders for each customer
+---------------------------------------------------------------------
+-- Query: three most recent orders for each customer
+
+---------------------------------------------------------------------
 SELECT * 
-FROM dbo.Customers C
+FROM Sales.Customers C
 CROSS APPLY (
-	SELECT TOP(2) O.OrderID 
-	FROM Orders O
-	where O.CustID = C.CustID
-	ORDER BY O.OrderID DESC
+	SELECT TOP(3) O.orderid 
+	FROM Sales.Orders O
+	where O.custid = C.custid
+	ORDER BY O.orderdate DESC, O.orderid DESC
+) A
+
+SELECT * 
+FROM Sales.Customers C
+CROSS APPLY (
+	SELECT O.orderid 
+	FROM Sales.Orders O
+	where O.custid = C.custid
+	ORDER BY O.orderdate DESC, O.orderid DESC
+	OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY
 ) A

@@ -112,3 +112,7 @@ WITH CHECK OPTION
 GO
 
 SELECT * FROM Sales.vwUSACusts
+
+DELETE 
+FROM Sales.Customers 
+WHERE custid = 92

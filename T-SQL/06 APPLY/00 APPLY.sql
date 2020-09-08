@@ -4,7 +4,7 @@
 
 -- The APPLY operator operates on 2 input tables, left and right, The right table is typically a (correlated) derived table (subquery) or TVF.
 
--- With APPLY, the left side is evaluated first, and the right side is evaluated per row from the left.
+-- With APPLY, the left side is evaluated first, and the right side is evaluated per row from the left. So the right side can have references to elements from the left
 -- Beacuse of the way APLLY works, there is no APPLY equivalent of a RIGHT JOIN
 
 -- One way to think of the CROSS APPLY operator is as a hybrid of a CROSS JOIN and a correlated subquery
