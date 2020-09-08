@@ -70,6 +70,7 @@
 	d.SELF JOIN
 	e.NON-EQUI JOINS
 	f.COMPOSITE JOINS
+	g.Multi-JOIN
 
 4.Sub-Query
 	a.IN
@@ -83,6 +84,9 @@
 	b.Correlated
 		i.Scalar
 		ii.Multivalue
+
+	a.Returning previous or next values
+	b.Returning running aggregates
 
 5.Table Expressions
 	a.Derived Table

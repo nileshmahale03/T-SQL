@@ -37,17 +37,29 @@
           <AssociatedConnUserName />
           <FullPath>02 Common Table Expressions (CTEs).sql</FullPath>
         </FileNode>
-        <FileNode Name="03 Views.sql">
+        <FileNode Name="03 Recursive CTEs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03 Views.sql</FullPath>
+          <FullPath>03 Recursive CTEs.sql</FullPath>
         </FileNode>
-        <FileNode Name="04 Inline Table-valued Functions (TVFs).sql">
+        <FileNode Name="04 Views.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04 Inline Table-valued Functions (TVFs).sql</FullPath>
+          <FullPath>04 Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 View options.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 View options.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 Inline Table-valued Functions (TVFs).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 Inline Table-valued Functions (TVFs).sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

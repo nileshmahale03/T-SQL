@@ -12,28 +12,44 @@
 -- Rule 2: All columns must have names
 -- Rule 3: All column names must be unique
 
--- Derived Tables : Single-statement scope, not reusable
---                : Assigning column aliases
---                : Using arguments
---                : Nesting
---                : Multiple references
-
--- CTEs           : Single-statement scope, not reusable
---                : Assigning column aliases
---                : Using arguments 
---                : Defining multiple CTEs
---                : Multiple references  
-
--- VIEWs          : Definition are stored as permanent objects, reusable
---                : Because a view is an object in the database, you can manage access permissions similar to the way
---                  you do for tables. (These permissions include SELECT, INSERT, UPDATE, and DELETE.)
--- View option    : ENCRYPTION
---                : SCHEMABINDING
---                : CHECK OPTION
-
 -- Inline TVFs    : Definition are stored as permanent objects, reusable
 --                : Reusable table expressions that support input parameters. 
 --                : Paramaterized views
 ---------------------------------------------------------------------
+USE TSQLV4
+
+SELECT * FROM Sales.Customers 
+
+SELECT * FROM Sales.Orders
 
 
+---------------------------------------------------------------------
+-- Query: Get Customer Orders
+
+---------------------------------------------------------------------
+DROP FUNCTION IF EXISTS dbo.fnGetCustOrders
+GO
+
+CREATE FUNCTION dbo.fnGetCustOrders
+(@custid INT)
+RETURNS TABLE
+AS
+
+RETURN
+
+SELECT orderid, custid, empid, orderdate
+FROM Sales.Orders
+WHERE custid = @custid
+
+GO
+
+SELECT * 
+FROM dbo.fnGetCustOrders(1)
+
+---------------------------------------------------------------------
+-- Query: As with tables, you can refer to an inline TVF as part of a join.
+
+---------------------------------------------------------------------
+SELECT * 
+FROM dbo.fnGetCustOrders(1) CO
+INNER JOIN Sales.OrderDetails OD ON OD.orderid = CO.orderid
