@@ -37,17 +37,35 @@
           <AssociatedConnUserName />
           <FullPath>02 UNION ALL.sql</FullPath>
         </FileNode>
-        <FileNode Name="03 EXCEPT.sql">
+        <FileNode Name="03 INTERSECT.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03 EXCEPT.sql</FullPath>
+          <FullPath>03 INTERSECT.sql</FullPath>
         </FileNode>
-        <FileNode Name="04 INTERSECT.sql">
+        <FileNode Name="04 EXCEPT.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04 INTERSECT.sql</FullPath>
+          <FullPath>04 EXCEPT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 PRECEDENCE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 PRECEDENCE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 Circumventing unsupported logical phases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 Circumventing unsupported logical phases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 Exercise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 Exercise.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
