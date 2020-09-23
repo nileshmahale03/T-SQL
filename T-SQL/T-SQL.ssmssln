@@ -21,10 +21,6 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07 SET Operators", "07 SET 
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08 Window Functions", "08 Window Functions\08 Window Functions.ssmssqlproj", "{A3C3F5DC-3EEC-4649-876F-895C2917A28C}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09 PIVOT", "09 PIVOT\09 PIVOT.ssmssqlproj", "{31A8FE66-FF5E-439A-BAB5-3C8C36DD7D96}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10 UNPIVOT", "10 UNPIVOT\10 UNPIVOT.ssmssqlproj", "{D7B6F7FB-33C5-4D71-B880-340BD60D6F34}"
-EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11 Built-In Functions", "11 Built-In Functions\11 Built-In Functions.ssmssqlproj", "{9E8B4C27-AC5C-44B1-A862-C4BF2EDC508A}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12 Data Modifications - INSERT", "12 Data Modifications - INSERT\12 Data Modifications - INSERT.ssmssqlproj", "{1205ECD0-8043-4F22-A519-D3EFBBF03685}"
@@ -63,6 +59,10 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "28 Data Types - XML", "28 D
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "29 Data Types - JSON", "29 Data Types - JSON\29 Data Types - JSON.ssmssqlproj", "{E50DDE79-F9C4-4329-92F4-D30B85D15239}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09 Grouping Sets", "09 Grouping Sets\09 Grouping Sets.ssmssqlproj", "{36D6B36E-E081-45BD-858C-568950E8B77B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10 PIVOT UNPIVOT", "10 PIVOT UNPIVOT\10 PIVOT UNPIVOT.ssmssqlproj", "{69459926-2172-48C4-87DB-CD5FA89E16F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -77,8 +77,6 @@ Global
 		{8BE7E531-6A56-4D98-B042-2ADDAE59F63F}.Default|Default.ActiveCfg = Default
 		{EC2B5000-E0A2-4BD1-B27E-76561F418F6D}.Default|Default.ActiveCfg = Default
 		{A3C3F5DC-3EEC-4649-876F-895C2917A28C}.Default|Default.ActiveCfg = Default
-		{31A8FE66-FF5E-439A-BAB5-3C8C36DD7D96}.Default|Default.ActiveCfg = Default
-		{D7B6F7FB-33C5-4D71-B880-340BD60D6F34}.Default|Default.ActiveCfg = Default
 		{9E8B4C27-AC5C-44B1-A862-C4BF2EDC508A}.Default|Default.ActiveCfg = Default
 		{1205ECD0-8043-4F22-A519-D3EFBBF03685}.Default|Default.ActiveCfg = Default
 		{A80B3EBB-0C03-4024-9094-E732F549137D}.Default|Default.ActiveCfg = Default
@@ -98,6 +96,9 @@ Global
 		{24E545CF-1992-4B71-8DBF-9EF006D85D9F}.Default|Default.ActiveCfg = Default
 		{3DEDECA7-AEAB-4949-BC72-148C87ADB100}.Default|Default.ActiveCfg = Default
 		{E50DDE79-F9C4-4329-92F4-D30B85D15239}.Default|Default.ActiveCfg = Default
+		{202444E4-3013-4107-8DF1-4A02D9CB96C7}.Default|Default.ActiveCfg = Default
+		{36D6B36E-E081-45BD-858C-568950E8B77B}.Default|Default.ActiveCfg = Default
+		{69459926-2172-48C4-87DB-CD5FA89E16F7}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
