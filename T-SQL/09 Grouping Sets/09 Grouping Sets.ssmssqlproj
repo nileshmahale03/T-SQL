@@ -25,35 +25,35 @@
           <AssociatedConnUserName />
           <FullPath>00 Grouping Sets.sql</FullPath>
         </FileNode>
-        <FileNode Name="01 GROUPING SETS.sql">
+        <FileNode Name="01 GROUPING SETS subclause.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01 GROUPING SETS.sql</FullPath>
+          <FullPath>01 GROUPING SETS subclause.sql</FullPath>
         </FileNode>
-        <FileNode Name="02 CUBE.sql">
+        <FileNode Name="02 CUBE subclause.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02 CUBE.sql</FullPath>
+          <FullPath>02 CUBE subclause.sql</FullPath>
         </FileNode>
-        <FileNode Name="03 ROLLUP.sql">
+        <FileNode Name="03 ROLLUP subclause.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03 ROLLUP.sql</FullPath>
+          <FullPath>03 ROLLUP subclause.sql</FullPath>
         </FileNode>
-        <FileNode Name="04 GROUPING.sql">
+        <FileNode Name="04 GROUPING Function.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04 GROUPING.sql</FullPath>
+          <FullPath>04 GROUPING Function.sql</FullPath>
         </FileNode>
-        <FileNode Name="05 GROUPING_ID.sql">
+        <FileNode Name="05 GROUPING_ID Function.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05 GROUPING_ID.sql</FullPath>
+          <FullPath>05 GROUPING_ID Function.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
