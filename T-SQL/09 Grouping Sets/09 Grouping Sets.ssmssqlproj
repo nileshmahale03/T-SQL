@@ -25,23 +25,23 @@
           <AssociatedConnUserName />
           <FullPath>00 Grouping Sets.sql</FullPath>
         </FileNode>
-        <FileNode Name="01 GROUPING SETS subclause.sql">
+        <FileNode Name="01 GROUP BY GROUPING SETS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01 GROUPING SETS subclause.sql</FullPath>
+          <FullPath>01 GROUP BY GROUPING SETS.sql</FullPath>
         </FileNode>
-        <FileNode Name="02 CUBE subclause.sql">
+        <FileNode Name="02 GROUP BY CUBE.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>02 CUBE subclause.sql</FullPath>
+          <FullPath>02 GROUP BY CUBE.sql</FullPath>
         </FileNode>
-        <FileNode Name="03 ROLLUP subclause.sql">
+        <FileNode Name="03 GROUP BY ROLLUP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03 ROLLUP subclause.sql</FullPath>
+          <FullPath>03 GROUP BY ROLLUP.sql</FullPath>
         </FileNode>
         <FileNode Name="04 GROUPING Function.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
