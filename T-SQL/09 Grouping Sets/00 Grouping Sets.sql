@@ -21,11 +21,11 @@ DROP TABLE IF EXISTS dbo.Orders;
 
 CREATE TABLE dbo.Orders
 (
-	orderid INT NOT NULL,
-	orderdate DATE NOT NULL,
-	empid INT NOT NULL,
-	custid VARCHAR(5) NOT NULL,
-	qty INT NOT NULL,
+	orderid   INT        NOT NULL,
+	orderdate DATE       NOT NULL,
+	empid     INT        NOT NULL,
+	custid    VARCHAR(5) NOT NULL,
+	qty       INT        NOT NULL,
 	CONSTRAINT PK_Orders PRIMARY KEY(orderid)
 );
 
