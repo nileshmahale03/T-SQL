@@ -65,6 +65,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10 PIVOT UNPIVOT", "10 PIVO
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "30 LeetCode Database Problems", "30 LeetCode Database Problems\30 LeetCode Database Problems.ssmssqlproj", "{21145362-FCA5-4EFD-8E8C-EBE4389F7D0B}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "31 LeetCode Technical Questions", "31 LeetCode Technical Questions\31 LeetCode Technical Questions.ssmssqlproj", "{A085B109-D06D-4FFA-A7C7-B07B8FFC2351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -100,8 +102,9 @@ Global
 		{E50DDE79-F9C4-4329-92F4-D30B85D15239}.Default|Default.ActiveCfg = Default
 		{36D6B36E-E081-45BD-858C-568950E8B77B}.Default|Default.ActiveCfg = Default
 		{69459926-2172-48C4-87DB-CD5FA89E16F7}.Default|Default.ActiveCfg = Default
-		{4694118D-350A-4A57-BA91-ED5CBA8B8FA0}.Default|Default.ActiveCfg = Default
 		{21145362-FCA5-4EFD-8E8C-EBE4389F7D0B}.Default|Default.ActiveCfg = Default
+		{2829EC91-6557-4FB8-ABCD-0EA53FB4C159}.Default|Default.ActiveCfg = Default
+		{A085B109-D06D-4FFA-A7C7-B07B8FFC2351}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

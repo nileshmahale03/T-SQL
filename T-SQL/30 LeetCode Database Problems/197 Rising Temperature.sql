@@ -41,7 +41,7 @@ In 2015-01-02, temperature was higher than the previous day (10 -> 25).
 In 2015-01-04, temperature was higher than the previous day (30 -> 20).
 */---------------------------------------------------------------------
 USE QuestionBank
-Go
+GO
 
 DROP TABLE IF EXISTS dbo.Weather
 GO
