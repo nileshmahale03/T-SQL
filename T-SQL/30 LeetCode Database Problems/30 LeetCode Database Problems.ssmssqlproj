@@ -97,6 +97,36 @@
           <AssociatedConnUserName />
           <FullPath>262 Trips and Users.sql</FullPath>
         </FileNode>
+        <FileNode Name="511 Game Play Analysis I.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>511 Game Play Analysis I.sql</FullPath>
+        </FileNode>
+        <FileNode Name="512 Game Play Analysis II.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>512 Game Play Analysis II.sql</FullPath>
+        </FileNode>
+        <FileNode Name="534 Game Play Analysis III.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>534 Game Play Analysis III.sql</FullPath>
+        </FileNode>
+        <FileNode Name="550 Game Play Analysis IV.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>550 Game Play Analysis IV.sql</FullPath>
+        </FileNode>
+        <FileNode Name="570 Managers with at Least 5 Direct Reports.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>570 Managers with at Least 5 Direct Reports.sql</FullPath>
+        </FileNode>
         <FileNode Name="595 Big Countries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
