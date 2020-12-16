@@ -10,6 +10,8 @@
 -- Syntax - DELETE FROM (WHERE)
 -- The DELETE statement tends to be expensive when you delete a large number of rows, mainly because it’s a fully logged operation.
 
+-- Fully logged
+-- The DELETE statement is processed as a transaction
 ---------------------------------------------------------------------
 
 USE TSQLV4
