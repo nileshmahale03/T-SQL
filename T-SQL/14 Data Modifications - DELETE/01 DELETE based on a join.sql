@@ -8,7 +8,7 @@
 -- T-SQL supports a nonstandard DELETE syntax based on joins.
 -- This means you can delete rows from one table based on a filter against attributes in related rows from another table.
 -- Start with the FROM clause with the joins, move on to the WHERE clause
---, and finally—instead of specifying a SELECT clause—specify a DELETE clause with the alias of the side of the join that is supposed to be the target for the deletion.
+-- and finally—instead of specifying a SELECT clause—specify a DELETE clause with the alias of the side of the join that is supposed to be the target for the deletion.
 -- 
 ---------------------------------------------------------------------
 
