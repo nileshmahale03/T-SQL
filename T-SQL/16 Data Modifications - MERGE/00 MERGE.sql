@@ -1,6 +1,5 @@
 
 ---------------------------------------------------------------------
-
 -- DML (Data Modification & Retrieval)
 -- DML includes the statements SELECT, INSERT, UPDATE, DELETE, TRUNCATE, and MERGE.
 
@@ -40,6 +39,7 @@ CREATE TABLE dbo.Customers (
 SELECT * FROM dbo.Customers
 
 INSERT INTO dbo.Customers (custid, companyname, phone, address)
+OUTPUT inserted.custid, inserted.companyname, inserted.phone, inserted.address
 VALUES (1, 'cust 1', '111 111-1111', 'address 1')
      , (2, 'cust 2', '222 222-2222', 'address 2')
 	 , (3, 'cust 3', '333 333-3333', 'address 3')
