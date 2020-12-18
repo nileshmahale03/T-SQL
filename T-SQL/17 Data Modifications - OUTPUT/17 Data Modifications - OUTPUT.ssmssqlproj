@@ -25,6 +25,30 @@
           <AssociatedConnUserName />
           <FullPath>00 OUTPUT.sql</FullPath>
         </FileNode>
+        <FileNode Name="01 INSERT with OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 INSERT with OUTPUT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 UPDATE with OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 UPDATE with OUTPUT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 DELETE with OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 DELETE with OUTPUT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 MERGE with OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 MERGE with OUTPUT.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
