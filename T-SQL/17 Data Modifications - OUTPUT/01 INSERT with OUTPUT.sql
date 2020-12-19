@@ -34,7 +34,10 @@ CREATE TABLE dbo.Orders (
 )
 
 INSERT INTO dbo.Orders (orderdate, empid, custid)
-OUTPUT inserted.orderid, inserted.orderdate, inserted.empid, inserted.custid
+OUTPUT inserted.orderid
+     , inserted.orderdate
+	 , inserted.empid
+	 , inserted.custid
 VALUES  ('20160212', 3, 'A')
       , ('20160213', 4, 'A')
 	  , ('20160214', 1, 'C')
