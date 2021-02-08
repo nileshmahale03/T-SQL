@@ -3,14 +3,14 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="Nilesh-THINKPAD:NILESH-THINKPAD\Nilesh">
-          <Created>2020-07-25T15:06:06.8888396-07:00</Created>
+        <ConnectionNode Name="NILESHMAHAL524D\SQLEXPRESS:NILESHMAHAL524D\nileshmahale">
+          <Created>2021-01-21T13:31:12.4657843-08:00</Created>
           <Type>SQL</Type>
-          <Server>Nilesh-THINKPAD</Server>
+          <Server>NILESHMAHAL524D\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
+          <LoginTimeout>15</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -20,32 +20,32 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="00 Window Function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>00 Window Function.sql</FullPath>
         </FileNode>
         <FileNode Name="01 RANKING.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01 RANKING.sql</FullPath>
         </FileNode>
         <FileNode Name="02 AGGREGATE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02 AGGREGATE.sql</FullPath>
         </FileNode>
         <FileNode Name="03 ANALYTICAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03 ANALYTICAL.sql</FullPath>
         </FileNode>
         <FileNode Name="04 Exercise.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>04 Exercise.sql</FullPath>
         </FileNode>

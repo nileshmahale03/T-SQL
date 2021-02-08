@@ -16,6 +16,7 @@ AS
 -- The anchor member query is invoked only once.
 -- The recursive member is a query that has a reference to the CTE name and is invoked repeatedly until it returns an empty set.
 -- As a safety measure, SQL Server restricts the number of times the recursive member can be invoked to 100 by default.
+
 -- You can change the default maximum recursion limit (that is, the number of times the recursive member can be invoked) by specifying 
 -- the hint OPTION(MAXRECURSION n) at the end of the outer query, where n is an integer in the range 0 through 32,767.
 ---------------------------------------------------------------------
@@ -34,7 +35,7 @@ SELECT * FROM HR.Employees
 
 	SELECT n + 1
 	FROM CTEGenNum
-	WHERE N < 110
+	WHERE n < 110
 )
 SELECT * 
 FROM CTEGenNum

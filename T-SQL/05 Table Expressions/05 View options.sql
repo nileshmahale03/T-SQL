@@ -89,6 +89,7 @@ SELECT * FROM Sales.vwUSACusts
 ALTER TABLE Sales.Customers
 DROP COLUMN address
 
+--The object 'vwUSACusts' is dependent on column 'address'.
 ---------------------------------------------------------------------
 -- Query: CHECK OPTION
 
@@ -115,4 +116,4 @@ SELECT * FROM Sales.vwUSACusts
 
 DELETE 
 FROM Sales.Customers 
-WHERE custid = 92
+WHERE custid = 94

@@ -12,6 +12,8 @@
 ---------------------------------------------------------------------
 -- 1. How to use ORDER BY in UNION query 
 ---------------------------------------------------------------------
+USE TSQLV4
+GO
 
 SELECT TOP (2) empid, orderid, orderdate
 FROM Sales.Orders

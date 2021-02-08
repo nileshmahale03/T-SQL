@@ -3,14 +3,14 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="Nilesh-THINKPAD:NILESH-THINKPAD\Nilesh">
-          <Created>2020-07-25T15:03:28.7180657-07:00</Created>
+        <ConnectionNode Name="NILESHMAHAL524D\SQLEXPRESS:NILESHMAHAL524D\nileshmahale">
+          <Created>2021-01-31T14:18:23.0210615-08:00</Created>
           <Type>SQL</Type>
-          <Server>Nilesh-THINKPAD</Server>
+          <Server>NILESHMAHAL524D\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>master</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -20,20 +20,20 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="00 APPLY.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>00 APPLY.sql</FullPath>
         </FileNode>
         <FileNode Name="01 CROSS APPLY.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01 CROSS APPLY.sql</FullPath>
         </FileNode>
         <FileNode Name="02 OUTER APPLY.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02 OUTER APPLY.sql</FullPath>
         </FileNode>

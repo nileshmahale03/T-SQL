@@ -4,9 +4,9 @@
 
 -- You use aggregate window functions to aggregate the rows in the defined window.
 
--- The window-partition clause (PARTITION BY)                                   : Supports
+-- The window-partition clause (PARTITION BY)                                   : Supports - optional 
 -- The window-order clause (ORDER BY)                                           : Supports - optional 
--- A window-frame clause (ROWS BETWEEN <top delimiter> AND <bottom delimiter>)  : Supports
+-- A window-frame clause (ROWS BETWEEN <top delimiter> AND <bottom delimiter>)  : Supports - optional 
 
 -- T-SQL supports four Aggregate functions: 
 -- 1. SUM    : 

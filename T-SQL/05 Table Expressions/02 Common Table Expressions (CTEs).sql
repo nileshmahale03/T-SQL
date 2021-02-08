@@ -20,7 +20,7 @@
 --                      as far as the FROM clause of the outer query is concerned, the CTE already exists; 
 --                      therefore, you can refer to multiple instances of the same CTE in table operators like joins.
 
--- The WITH clause is used in T-SQL for several purposes. For example, it’s used to defin a table hint in a query to force a certain optimization option or isolation level.
+-- The WITH clause is used in T-SQL for several purposes. For example, it’s used to define a table hint in a query to force a certain optimization option or isolation level.
 -- To avoid ambiguity, when the WITH clause is used to define a CTE, the preceding statement in the same batch—if one exists—must be terminated with a semicolon.
 ---------------------------------------------------------------------
 USE TSQLV4

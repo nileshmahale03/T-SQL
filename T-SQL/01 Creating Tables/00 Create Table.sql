@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------
---CREATE TABLE ON PRIMARY
+--CREATE TABLE ON PRIMARY SCHEME
 ---------------------------------------------------------------------
 CREATE TABLE Schema.Table_Name
 (

@@ -112,3 +112,12 @@ SELECT orderid
 	 , orderdate
 	 , (SELECT custid FROM Sales.Customers WHERE country = 'USA') 'USACustID'
 FROM Sales.Orders
+
+SELECT orderid
+     , custid
+	 , empid
+	 , orderdate
+	 , (SELECT custid FROM Sales.Customers WHERE country IN ('USA')) 'USACustID'
+FROM Sales.Orders
+
+--Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.

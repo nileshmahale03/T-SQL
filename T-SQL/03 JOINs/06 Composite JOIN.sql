@@ -6,6 +6,7 @@
 
 -- For a more tangible example, suppose you need to do some updates 
 -- Because the relationship is based on multiple attributes, the join condition is composite. 
+-- e.g. Bank Number + Account Number
 ---------------------------------------------------------------------
 
 FROM dbo.Table1 T1

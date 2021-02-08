@@ -30,6 +30,10 @@ FROM <left_input_table>
 --   When you need to review code involving outer joins to look for logical bugs, one of the things you should examine is the WHERE clause. 
 --   If the predicate in the WHERE clause refers to an attribute from the nonpreserved side of the join using an expression 
 --   in the form <attribute> <operator> <value>, it’s usually an indication of a bug.
+--   This is because attributes from the nonpreserved side of the join are NULLs in outer rows, and an expression in the form NULL <operator> <value> yields
+--   UNKNOWN (unless it’s the IS NULL operator explicitly looking for NULLs). 
+--   Recall that a WHERE clause filters UNKNOWN out. Such a predicate in the WHERE clause causes all outer rows to be filtered out, effectively nullifying the outer join. 
+--   Effectively, the join becomes an inner join. So the programmer either made a mistake in the join type or in the predicate.
 
 --3. Using outer joins in a multi-join query
 --   Suppose you write a multi-join query with an outer join between two tables, followed by an inner join with a third table. 

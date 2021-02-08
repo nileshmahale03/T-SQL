@@ -9,8 +9,7 @@
 -- You can use the TOP option with the PERCENT keyword, in which case SQL Server calculates the number of rows to return based on a percentage of the number of qualifying rows, rounded up.
 
 -- Note that you can even use the TOP filter in a query without an ORDER BY clause. In such a case, 
--- the ordering is completely undefined—SQL Server returns whichever n rows it happens to physically access first, 
--- where n is the requested number of rows.
+-- the ordering is completely undefined—SQL Server returns whichever n rows it happens to physically access first, where n is the requested number of rows.
 
 -- If you want the query to be deterministic, you need to make the ORDER BY list unique; in other words, add a tiebreaker.
 

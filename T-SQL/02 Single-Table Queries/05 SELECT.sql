@@ -13,6 +13,7 @@
 -- SQL allows specifying an asterisk (*) in the SELECT list to request all attributes from the queried tables instead of listing them explicitly
 
 -- Curiously, you are not allowed to refer to column aliases created in the SELECT clause in other expressions within the same SELECT clause.
+-- beacuse of All at Once operation
 ---------------------------------------------------------------------
 
 USE TSQLV4
