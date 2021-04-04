@@ -2,7 +2,8 @@
 ---------------------------------------------------------------------
 -- UNION (DISTINCT)
 
--- The UNION (implicit DISTINCT) operator unifies the results of the two queries and eliminates duplicates.-- Note that if a row appears in both input sets, it will appear only once in the result; in other words, the result is a set and not a multiset.
+-- The UNION (implicit DISTINCT) operator unifies the results of the two queries and eliminates duplicates.
+-- Note that if a row appears in both input sets, it will appear only once in the result; in other words, the result is a set and not a multiset.
 
 -- If duplicates are possible in the unified result and you do not need to return them, use UNION.
 

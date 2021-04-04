@@ -50,8 +50,8 @@
           <FullPath>04 CASE Expression Abbreviation.sql</FullPath>
         </FileNode>
         <FileNode Name="05 Miscellaneous.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05 Miscellaneous.sql</FullPath>
         </FileNode>
