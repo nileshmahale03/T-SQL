@@ -3,14 +3,14 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="Nilesh-THINKPAD:NILESH-THINKPAD\Nilesh">
-          <Created>2020-10-12T09:41:24.6249348-07:00</Created>
+        <ConnectionNode Name="NILESHMAHAL524D\SQLEXPRESS:NILESHMAHAL524D\nileshmahale">
+          <Created>2021-05-18T20:27:41.2200175-07:00</Created>
           <Type>SQL</Type>
-          <Server>Nilesh-THINKPAD</Server>
+          <Server>NILESHMAHAL524D\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
+          <LoginTimeout>15</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -20,152 +20,152 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="175 Combine Two Tables.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>175 Combine Two Tables.sql</FullPath>
         </FileNode>
         <FileNode Name="176 Second Highest Salary.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>176 Second Highest Salary.sql</FullPath>
         </FileNode>
         <FileNode Name="177 Nth Highest Salary.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>177 Nth Highest Salary.sql</FullPath>
         </FileNode>
         <FileNode Name="178 DENSE Rank Scores.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>178 DENSE Rank Scores.sql</FullPath>
         </FileNode>
         <FileNode Name="180 Consecutive Numbers.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>180 Consecutive Numbers.sql</FullPath>
         </FileNode>
         <FileNode Name="181 Employees Earning More Than Their Managers.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>181 Employees Earning More Than Their Managers.sql</FullPath>
         </FileNode>
         <FileNode Name="182 Duplicate Emails.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>182 Duplicate Emails.sql</FullPath>
         </FileNode>
         <FileNode Name="183 Customers Who Never Order.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>183 Customers Who Never Order.sql</FullPath>
         </FileNode>
         <FileNode Name="184 Department Highest Salary.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>184 Department Highest Salary.sql</FullPath>
         </FileNode>
         <FileNode Name="185 Department Top Three Salaries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>185 Department Top Three Salaries.sql</FullPath>
         </FileNode>
         <FileNode Name="196 Delete Duplicate Emails.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>196 Delete Duplicate Emails.sql</FullPath>
         </FileNode>
         <FileNode Name="197 Rising Temperature.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>197 Rising Temperature.sql</FullPath>
         </FileNode>
         <FileNode Name="262 Trips and Users.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>262 Trips and Users.sql</FullPath>
         </FileNode>
         <FileNode Name="511 Game Play Analysis I.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>511 Game Play Analysis I.sql</FullPath>
         </FileNode>
         <FileNode Name="512 Game Play Analysis II.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>512 Game Play Analysis II.sql</FullPath>
         </FileNode>
         <FileNode Name="534 Game Play Analysis III.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>534 Game Play Analysis III.sql</FullPath>
         </FileNode>
         <FileNode Name="550 Game Play Analysis IV.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>550 Game Play Analysis IV.sql</FullPath>
         </FileNode>
         <FileNode Name="570 Managers with at Least 5 Direct Reports.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>570 Managers with at Least 5 Direct Reports.sql</FullPath>
         </FileNode>
         <FileNode Name="595 Big Countries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>595 Big Countries.sql</FullPath>
         </FileNode>
         <FileNode Name="596 Classes More Than 5 Students.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>596 Classes More Than 5 Students.sql</FullPath>
         </FileNode>
         <FileNode Name="601 Human Traffic of Stadium.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>601 Human Traffic of Stadium.sql</FullPath>
         </FileNode>
         <FileNode Name="620 Not Boring Movies.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>620 Not Boring Movies.sql</FullPath>
         </FileNode>
         <FileNode Name="626 Exchange Seats.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NILESHMAHAL524D\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NILESHMAHAL524D\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>626 Exchange Seats.sql</FullPath>
         </FileNode>
         <FileNode Name="627 Swap Salary.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>627 Swap Salary.sql</FullPath>
         </FileNode>
         <FileNode Name="X1179 Reformat Department Table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Nilesh-THINKPAD:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>Nilesh-THINKPAD</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>X1179 Reformat Department Table.sql</FullPath>
         </FileNode>
